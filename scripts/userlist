@@ -1,0 +1,5 @@
+#!/bin/bash
+for USER in $(ls /home/);
+do
+    echo $USER
+done
